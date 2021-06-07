@@ -4,7 +4,7 @@ import praw.models
 reddit = praw.Reddit()
 authUser = reddit.user.me()
 
-
+ 
 def upvotedPostPopulate():
     """
     Populates a list of the most recent 1000 upvoted posts from the user.
